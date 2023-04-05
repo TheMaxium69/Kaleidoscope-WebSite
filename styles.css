@@ -98,7 +98,23 @@
     margin: 0px 30px;
 }
 
+@media (max-width: 991px) {
+    #header div#img div#center{
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #header div#img div#center h1 img{
+        width: 260px;
+    }
+    #header div#img div#center h1.uppercase {
+        font-size: 23px;
+    }
+    #header div#img div#center p {
 
+         margin: unset;
+    }
+}
 
 
 /*******************
@@ -132,6 +148,10 @@
   #reseau p{
     text-align: center;
     
+  }
+
+  #reseau div{
+    margin-bottom: 24px;
   }
 
 /*******************
