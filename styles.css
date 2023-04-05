@@ -1,0 +1,92 @@
+/*******************
+        ALL
+********************/
+
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #f0f5fa;
+    border-radius: 0.5em;
+    margin-bottom: 30px;
+  }
+  
+
+.gallery {
+    display: grid;
+    margin: 3em 0;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 1em;
+    grid-auto-flow: dense;
+  }
+  
+  figure {
+    display: flex;
+    margin: 0;
+  }
+
+  div.figure {
+    display: flex;
+    margin: 0;
+  }
+
+
+/*******************
+        NAVBAR
+********************/
+
+.navbar div a{
+
+    font-size: 35px;
+    
+    color: black;
+
+}
+
+/*******************
+        GALERY
+********************/
+
+  
+  #galery img {
+    flex: 1;
+    max-width: 100%;
+    object-fit: cover;
+  }
+/*******************
+        RESEAU
+********************/
+
+  #reseau p{
+    text-align: center;
+    
+  }
+
+/*******************
+        FOOTER
+********************/
+
+footer {
+    background-color: #f0f5fa;
+    border-top: 4px solid;
+    border-color: rgb(0, 0, 0);
+    padding: 20px 0 40px;
+    color: black;
+  }
+  footer span{
+    text-align: center;
+    color: black;
+  }
+  footer img {
+    width: 70px;
+  }
+
+  footer a{
+    color: rgb(0, 0, 0);
+  }
+  
+  footer a:hover{
+    color: rgb(63, 62, 62);
+  }
